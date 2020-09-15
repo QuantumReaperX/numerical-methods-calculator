@@ -1,0 +1,1 @@
+pyinstaller --clean --onefile --windowed --add-data "C:\Program Files (x86)\Python38-32\Lib\site-packages\sklearn\.libs\vcomp140.dll;." --hidden-import numpy --hidden-import scikit-learn --hidden-import sklearn.utils._cython_blas --hidden-import matplotlib main.py
